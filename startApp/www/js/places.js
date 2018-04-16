@@ -40,6 +40,8 @@ let places = [new Place(1,"Stephen Sutton Log House", "1712 Longbourne St.", new
             new Place(65, "Salem United Methodist Church (NRHP)",	"SE Corner Salem & Sutton Rds",	new Pos(39.0749624, -84.3912865,	195,	5,	1 )),
             new Place(66, "Methodist Episcopal Church",	"3546 Church St. (Newtown)", 	new Pos(39.1260376,	-84.3608001,	123,	10,	1)),
             new Place(73, "Rose Hill Cemetery",	"Batavia Rd. (SR 32) @ Mt. Carmel Rd.",	new Pos(39.1139637,	-84.3105201,	0,	-10,	1)),
+            new Place(79, "Flag Spring Cemetery", null, new Pos(39.1272153, -84.3547002, 302, 0, 1)),
+            new Place(89, "Guardian Angels Cemetery", "N. Side of Beechmont Ave. at Salem", new Pos(39.0732434, -84.3607794, 0, 0, 1))
         ];
 
         var panorama;
