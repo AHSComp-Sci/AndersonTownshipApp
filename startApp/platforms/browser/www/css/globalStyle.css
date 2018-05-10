@@ -136,6 +136,7 @@ html {
   list-style-type: none;
   padding: 0;
   max-width: 400px;
+  overflow-y: scroll;
 }
 .nav-mobile .menu-container .menu-sidebar .arrow {
   position: absolute;
