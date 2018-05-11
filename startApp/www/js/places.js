@@ -33,15 +33,15 @@ function Place (id, name, address, pos) {
             new Place(33, "Oldest Res. in California",	"5929 Kellogg Avenue",	new Pos(39.0645174,	-84.4232712,	200,	0,	1)),
             new Place(40, "John H. Gerard Home (TP White Funeral Home)",	"2050 Beechmont Ave. (Mt. Washington)", new Pos(	39.0917584,	-84.3870005,	117,	5,	1)),
             new Place(41, "A.J.'s Road House (Old Coach Stop)",	"6735 Kellogg Road.",	new Pos(39.0499721,	-84.395334,	193,	0,	0.75)),
-            new Place(48, "Newtown Sch. (District #11)",	"3511 Debolt St. (Now Masonic Hall)",	new Pos(39.1250468,	-84.3654087,	285,	6,	1)),
-            new Place(60, "Regular Baptist Church (Now Fire Dept.)",	"3537 Church St. (Newtown)",	new Pos(39.1256365,	-84.3610881,	313,	0,	0.75)),
-            new Place(63, "Universalist Church & Odd Fellows Hall",	"3609 Church St. (Newtown)",	new Pos(39.1266264,	-84.3603927,	313,	7,	0.25)),
-            new Place(64, "St. Jerome Roman Catholic Church",	"Rohde Ave. & Honey St. (California)",	new Pos(39.066286,	-84.4258322,	333,	10,	0.4)),
-            new Place(65, "Salem United Methodist Church (NRHP)",	"SE Corner Salem & Sutton Rds",	new Pos(39.0749624, -84.3912865,	195,	5,	1 )),
-            new Place(66, "Methodist Episcopal Church",	"3546 Church St. (Newtown)", 	new Pos(39.1260376,	-84.3608001,	123,	10,	1)),
-            new Place(73, "Rose Hill Cemetery",	"Batavia Rd. (SR 32) @ Mt. Carmel Rd.",	new Pos(39.1139637,	-84.3105201,	0,	-10,	1)),
-            new Place(79, "Flag Spring Cemetery", null, new Pos(39.1272153, -84.3547002, 302, 0, 1)),
-            new Place(89, "Guardian Angels Cemetery", "N. Side of Beechmont Ave. at Salem", new Pos(39.0732434, -84.3607794, 0, 0, 1))
+            // new Place(48, "Newtown Sch. (District #11)",	"3511 Debolt St. (Now Masonic Hall)",	new Pos(39.1250468,	-84.3654087,	285,	6,	1)),
+            // new Place(60, "Regular Baptist Church (Now Fire Dept.)",	"3537 Church St. (Newtown)",	new Pos(39.1256365,	-84.3610881,	313,	0,	0.75)),
+            // new Place(63, "Universalist Church & Odd Fellows Hall",	"3609 Church St. (Newtown)",	new Pos(39.1266264,	-84.3603927,	313,	7,	0.25)),
+            // new Place(64, "St. Jerome Roman Catholic Church",	"Rohde Ave. & Honey St. (California)",	new Pos(39.066286,	-84.4258322,	333,	10,	0.4)),
+            // new Place(65, "Salem United Methodist Church (NRHP)",	"SE Corner Salem & Sutton Rds",	new Pos(39.0749624, -84.3912865,	195,	5,	1 )),
+            // new Place(66, "Methodist Episcopal Church",	"3546 Church St. (Newtown)", 	new Pos(39.1260376,	-84.3608001,	123,	10,	1)),
+            // new Place(73, "Rose Hill Cemetery",	"Batavia Rd. (SR 32) @ Mt. Carmel Rd.",	new Pos(39.1139637,	-84.3105201,	0,	-10,	1)),
+            // new Place(79, "Flag Spring Cemetery", null, new Pos(39.1272153, -84.3547002, 302, 0, 1)),
+            // new Place(89, "Guardian Angels Cemetery", "N. Side of Beechmont Ave. at Salem", new Pos(39.0732434, -84.3607794, 0, 0, 1))
         ];
 
         var panorama;
