@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Street View</title>
+    <link rel="stylesheet" type="text/css" href="../css/globalStyle.css">
+    <style>
+        html,
+        body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        #street-view {
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div htmlInclude="../topNav.html"></div>
+    <script src="../js/includeHTML.js"></script>
+    <script>includeHTML();</script>
+    <div id="street-view"></div>
+
+    <script>
+
+        function Pos(lat, long, head, pitch, zoom) {
+            this.lat = lat;
+            this.long = long;
+            this.head = head;
+            this.pitch = pitch;
+            this.zoom = zoom;
+        }
+
+        // these are where you put the pos function
+        var positions = new Pos(39.1250468, -84.3654087, 285, 6, 1);
+
+        var panorama;
+        function initialize() {
+            panorama = new google.maps.StreetViewPanorama(
+                document.getElementById('street-view'),
+                {
+                    position: { lat: positions.lat, lng: positions.long },
+                    pov: { heading: positions.head, pitch: positions.pitch },
+                    zoom: positions.zoom
+                });
+        }
+    </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCzYc8QLWqyvMKDV2CXKdOXMJmGQWjMidc&callback=initialize">
+    </script>
+</body>
+
+</html>
