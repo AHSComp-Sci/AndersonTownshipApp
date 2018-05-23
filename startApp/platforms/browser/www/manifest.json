@@ -4,8 +4,8 @@
   "name": "helloworld",
   "short_name": "helloworld",
   "version": "com.phonegap.helloworld",
-  "description": "A blank PhoneGap app.",
-  "author": "PhoneGap Team",
+  "description": "An app the shows various historical locations in Anderson Township.",
+  "author": "Joe Brayshaw",
   "icons": [],
   "start_url": "index.html"
 }

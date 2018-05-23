@@ -2,10 +2,10 @@
 <widget id="com.phonegap.helloworld" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>helloworld</name>
     <description>
-        A blank PhoneGap app.
+        An app the shows various historical locations in Anderson Township.
     </description>
-    <author email="support@phonegap.com" href="http://phonegap.com">
-        PhoneGap Team
+    <author email="jdbrayshaw629@gmail.com" href="http://phonegap.com">
+        Joe Brayshaw
     </author>
     <content src="index.html" />
     <access origin="*" />
