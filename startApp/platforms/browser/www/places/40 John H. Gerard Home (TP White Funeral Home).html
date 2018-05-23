@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
     <title>Street View</title>
     <link rel="stylesheet" type="text/css" href="../css/globalStyle.css">
     <style>
@@ -14,16 +14,18 @@
         }
 
         #street-view {
-            height: 100%;
+            height: 92.5%;
         }
     </style>
 </head>
 
 <body>
-    <div htmlInclude="../topNav.html"></div>
-    <script src="../js/includeHTML.js"></script>
-    <script>includeHTML();</script>
-    <div id="street-view"></div>
+    <ul class="nav-mobile">
+        <li class="nav-top">John H. Gerard Home</li>
+        <div htmlInclude="../topNav.html"></div>
+        <script src="../js/includeHTML.js"></script>
+        <script>includeHTML();</script>
+    </ul>
 
     <script>
 

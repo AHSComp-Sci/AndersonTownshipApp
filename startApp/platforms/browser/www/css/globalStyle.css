@@ -157,14 +157,14 @@ html {
   line-height: 55px;
   font-size: 16px;
   text-align: left;
-  position: relative;
+  /* position: relative; */
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 .nav-mobile .menu-container .menu-sidebar li:hover {
   background: #eee;
 }
 .nav-mobile .menu-container .menu-sidebar li .menu-sub {
-  position: fixed;
+  position: relative;
   top: 0;
   right: 0;
   bottom: 0;
@@ -201,7 +201,6 @@ html {
   z-index: 1;
   transition: width 0.35s cubic-bezier(0, 0, 0.3, 1);
 }
-
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
